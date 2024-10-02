@@ -1,4 +1,92 @@
-@media (max-width: 768px) {
+@media only screen and (max-width: 425px) {
+  .navbar {
+    flex-direction: column;
+    display: none;
+    background-color: #fff;
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin-right: 10%;
+  }
+
+  .logo {
+    display: flex;
+    margin-left: 5%;
+  }
+
+  .iconbar {
+    display: none;
+  }
+
+  .navlogo {
+    display: none;
+  }
+
+  .wheel-container {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: inherit;
+    box-shadow: inherit;
+  }
+
+  .wheel {
+    width: 300px;
+    height: 300px;
+    margin: 6%;
+    margin-left: 7%;
+    justify-content: center;
+  }
+
+  .item {
+    width: 115px;
+    height: 115px;
+  }
+
+  .firstpage {
+    padding: 3% 10%;
+    font-size: 1.3rem;
+  }
+
+  .sectiontwo {
+    padding: 3% 10%;
+  }
+
+  .aboutper {
+    font-size: 1.3rem;
+    text-align: justify;
+    text-indent: 50px;
+  }
+
+  .cards {
+    justify-content: center;
+  }
+
+  .cardpar {
+    font-size: 1.3rem;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .mainlogo {
+    display: none;
+  }
+
+  .mailcohdd {
+    text-align: center;
+    padding: 0 3%;
+  }
+}
+
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
   .navbar {
     flex-direction: column;
     display: none;
