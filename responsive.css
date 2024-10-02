@@ -1,0 +1,94 @@
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    display: none;
+    background-color: #fff;
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin-right: 10%;
+  }
+  .logo {
+    display: flex;
+    margin-left: 5%;
+  }
+  .iconbar {
+    display: none;
+  }
+  .navlogo {
+    display: none;
+  }
+  .wheel-container {
+    width: 100%;
+    height:100%;
+    border: none;
+    background-color: inherit;
+    box-shadow: inherit;
+  }
+
+  .wheel {
+    width: 350px;
+    height: 350px;
+    margin: 5%;
+    justify-content: center;
+  }
+
+  .item {
+    width: 135px;
+    height: 135px;
+  }
+
+  .firstpage{
+    padding: 3% 10%;
+    font-size: 1.3rem;
+  }
+  .sectiontwo{
+    padding: 3% 10%;
+  }
+  .aboutper{
+    font-size: 1.3rem;
+    text-align: justify;
+    text-indent: 50px;
+  }
+  .cards{
+    justify-content: center;
+  }
+  .cardpar{
+    font-size: 1.3rem;
+  }
+  .card{
+    width: 90%;
+  }
+  .mainlogo{
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .cards{
+        justify-content: center;
+    }
+    .firstpage{
+      text-align: center;
+    }
+    p{
+      font-size: 1.3rem;
+    }
+    .aboutper{
+      text-align: justify;
+      text-indent: 50px;
+    }
+    .contwo{
+      width: 50%
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
