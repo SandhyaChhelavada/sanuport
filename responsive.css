@@ -67,10 +67,14 @@
   .mainlogo{
     display: none;
   }
+  .mailcohdd{
+    text-align: center;
+    padding: 0 3%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
+@media only (min-width: 768px) and (max-width: 992px) {
     .cards{
         justify-content: center;
     }
@@ -85,7 +89,8 @@
       text-indent: 50px;
     }
     .contwo{
-      width: 50%
+      width: auto;
+      padding: 0 4%;
     }
 }
 
